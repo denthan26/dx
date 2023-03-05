@@ -1,0 +1,4 @@
+﻿  main.c
+D:\数据结构与算法\zhizhen\zhizhen\main.c(9,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\数据结构与算法\zhizhen\zhizhen\main.c(9,9): message : 请考虑在格式字符串中使用“%zd”
+  zhizhen.vcxproj -> D:\数据结构与算法\zhizhen\x64\Debug\zhizhen.exe

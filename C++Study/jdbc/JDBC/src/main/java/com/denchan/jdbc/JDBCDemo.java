@@ -1,0 +1,38 @@
+package com.denchan.jdbc;
+
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+public class JDBCDemo {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		// 1. 注册驱动
+		Class.forName("com.mysql.jdbc.Driver");
+		String url = "jdbc:mysql://127.0.0.1:3306/lmonkeyshop";
+		String username = "root";
+		String password = "1234";
+		// 2.获取链接
+		Connection conn = DriverManager.getConnection(url, username, password);
+		
+		// 3.sql语句
+		String sql = "update lmonkey_user set USER_SEX = 1 where USER_ID = 1;";
+		
+		// 4.获取执行sql的对象 Statement
+		Statement stmt = conn.createStatement();
+		
+		// 5.执行sql
+		int count = stmt.executeUpdate(sql);
+		
+		// 6.处理结果
+		System.out.println(count);
+		
+		// 7.释放资源
+		stmt.close();
+		conn.close();
+		
+	}
+
+}

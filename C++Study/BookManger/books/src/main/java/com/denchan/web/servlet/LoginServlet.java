@@ -1,0 +1,19 @@
+package com.denchan.web.servlet;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/login")
+public class LoginServlet extends BaseServlet {
+
+
+	private static final long serialVersionUID = 1L;
+	public void login(HttpServletRequest request, HttpServletResponse response) {
+		String username = request.getParameter("username");
+		String password = request.getParameter("password");
+		System.out.println(username);
+		System.out.println(password);
+	}
+
+}

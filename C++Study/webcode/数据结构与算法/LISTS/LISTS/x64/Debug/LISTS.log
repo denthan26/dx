@@ -1,0 +1,6 @@
+﻿  GenList.cpp
+D:\数据结构与算法\LISTS\LISTS\GenList.cpp(22,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\数据结构与算法\LISTS\LISTS\GenList.cpp(96,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Main.cpp
+  正在生成代码...
+  LISTS.vcxproj -> D:\数据结构与算法\LISTS\x64\Debug\LISTS.exe

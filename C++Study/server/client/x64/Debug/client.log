@@ -1,0 +1,5 @@
+﻿  client.c
+C:\Users\denchan\Desktop\server\client\client.c(59,2): warning C4013: “inet_pton”未定义；假设外部返回 int
+C:\Users\denchan\Desktop\server\client\client.c(103,38): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\denchan\Desktop\server\client\client.c(58,17): warning C4101: “s”: 未引用的局部变量
+  client.vcxproj -> C:\Users\denchan\Desktop\server\x64\Debug\client.exe

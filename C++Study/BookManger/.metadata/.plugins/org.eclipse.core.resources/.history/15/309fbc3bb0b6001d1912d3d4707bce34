@@ -1,0 +1,11 @@
+package com.denchan.web.servlet;
+
+import javax.servlet.annotation.WebServlet;
+
+@WebServlet("/login")
+public class LoginServlet extends BaseServlet {
+
+
+	private static final long serialVersionUID = 1L;
+
+}

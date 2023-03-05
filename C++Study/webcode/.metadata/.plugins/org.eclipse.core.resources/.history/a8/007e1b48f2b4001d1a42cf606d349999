@@ -1,0 +1,5 @@
+package com.lmonkey.entity;
+
+public class LMONKEY_USER {
+
+}

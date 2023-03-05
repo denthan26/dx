@@ -1,0 +1,5 @@
+package com.denchan.web.servlet;
+
+public class BaseServlet {
+
+}

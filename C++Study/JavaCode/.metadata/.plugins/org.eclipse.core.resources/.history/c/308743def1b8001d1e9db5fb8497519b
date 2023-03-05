@@ -1,0 +1,10 @@
+package chapter07object;
+
+public class Eightqueens {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
